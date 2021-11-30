@@ -88,6 +88,32 @@
       </plugin>
     </plugins>
   </build>
+
+  <repositories>
+    <repository>
+      <id>newFeednew</id>
+      <url>https://pkgs.dev.azure.com/karthikeyan14june/_packaging/newFeednew/maven/v1</url>
+      <releases>
+      <enabled>true</enabled>
+      </releases>
+      <snapshots>
+      <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+  <distributionManagement> 
+    <repository>
+      <id>newFeednew</id>
+      <url>https://pkgs.dev.azure.com/karthikeyan14june/_packaging/newFeednew/maven/v1</url>
+      <releases>
+      <enabled>true</enabled>
+      </releases>
+      <snapshots>
+      <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </distributionManagement> 
+
   <dependencies>
     <dependency>
       <groupId>javax.servlet</groupId>
